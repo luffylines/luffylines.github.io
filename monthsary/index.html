@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#120b12" />
+  <meta name="description" content="A little corner of the internet for Christian and Leomary." />
+  <title>Christian ♡ Leomary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="desktop-lock" aria-hidden="true">
+    <div class="desktop-lock__card">
+      <span class="desktop-lock__heart">♡</span>
+      <h1>This little page was made for a phone.</h1>
+      <p>Open it on mobile to see our story.</p>
+    </div>
+  </div>
+
+  <div class="ambient ambient--one"></div>
+  <div class="ambient ambient--two"></div>
+  <div class="grain"></div>
+
+  <main class="app-shell">
+    <section class="hero section" id="home">
+      <div class="eyebrow">OUR LITTLE STORY</div>
+      <div class="hero__photo-wrap reveal">
+        <img class="hero__photo" src="assets/photos/memory-02.webp" alt="Christian and Leomary together" />
+        <div class="hero__photo-shine"></div>
+      </div>
+
+      <div class="hero__copy reveal">
+        <p class="hero__date">Since January 28, 2026</p>
+        <h1>Christian <span>♡</span> Leomary</h1>
+        <p class="hero__subtitle" id="monthsaryHeadline">Every day with you is one more memory I want to keep.</p>
+      </div>
+
+      <div class="counter-card reveal" aria-label="Relationship duration">
+        <div class="counter-card__label">TOGETHER FOR</div>
+        <div class="counter-grid">
+          <div><strong id="countMonths">0</strong><span>months</span></div>
+          <div><strong id="countDays">0</strong><span>days</span></div>
+          <div><strong id="countHours">0</strong><span>hours</span></div>
+        </div>
+        <p class="counter-card__foot" id="daysTogether">Counting every little moment ♡</p>
+      </div>
+
+      <button class="scroll-cue" type="button" data-scroll="#memories" aria-label="Scroll to memories">
+        <span>our memories</span>
+        <i></i>
+      </button>
+    </section>
+
+    <section class="section memories" id="memories">
+      <div class="section-heading reveal">
+        <span>01</span>
+        <div>
+          <p>MEMORIES</p>
+          <h2>Some of my favorite <em>us</em>.</h2>
+        </div>
+      </div>
+
+      <div class="memory-stack">
+        <article class="memory-card reveal">
+          <img src="assets/photos/memory-01.webp" alt="Christian and Leomary taking a selfie" loading="lazy" />
+          <div class="memory-card__caption"><span>01</span><p>Ordinary moments somehow become my favorites when I’m with you.</p></div>
+        </article>
+
+        <article class="memory-card memory-card--tilt-left reveal">
+          <img src="assets/photos/memory-02.webp" alt="Christian and Leomary outdoors together" loading="lazy" />
+          <div class="memory-card__caption"><span>02</span><p>Places feel warmer when I get to share them with you.</p></div>
+        </article>
+
+        <article class="memory-card memory-card--tilt-right reveal">
+          <img src="assets/photos/memory-03.webp" alt="Christian and Leomary sitting together" loading="lazy" />
+          <div class="memory-card__caption"><span>03</span><p>The smiles, the kwento, the kulit — I want to remember all of it.</p></div>
+        </article>
+
+        <article class="memory-card reveal">
+          <img src="assets/photos/memory-04.webp" alt="Christian kissing Leomary on the cheek" loading="lazy" />
+          <div class="memory-card__caption"><span>04</span><p>And all the small ways I get to say, “I love having you here.”</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section letter" id="letter">
+      <div class="section-heading reveal">
+        <span>02</span>
+        <div>
+          <p>FOR YOU</p>
+          <h2>A little letter to <em>Leomary</em>.</h2>
+        </div>
+      </div>
+
+      <article class="letter-card reveal">
+        <div class="letter-card__stamp">♡</div>
+        <p class="letter-card__hello">My love,</p>
+        <p>Thank you for being part of my days, my memories, and all the simple moments that somehow mean so much more because you are in them.</p>
+        <p>From January 28, 2026 up to every day that comes after, I hope we keep choosing each other, laughing together, growing together, and making more memories we can look back on with a smile.</p>
+        <p>I may not always have the perfect words, but I hope this little page reminds you that you are loved, appreciated, and very special to me.</p>
+        <p class="letter-card__signoff">Always yours,<br><strong>Christian ♡</strong></p>
+      </article>
+    </section>
+
+    <section class="section timeline" id="timeline">
+      <div class="section-heading reveal">
+        <span>03</span>
+        <div>
+          <p>OUR JOURNEY</p>
+          <h2>It started with one <em>date</em>.</h2>
+        </div>
+      </div>
+
+      <div class="timeline-list reveal">
+        <div class="timeline-item timeline-item--active">
+          <div class="timeline-item__dot"></div>
+          <div><time>JAN 28, 2026</time><h3>The beginning of us</h3><p>The date that started this story.</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__dot"></div>
+          <div><time>EVERY MONTH</time><h3>One more chapter</h3><p>More memories, more stories, more reasons to be grateful.</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__dot"></div>
+          <div><time>TODAY + AFTER</time><h3>Still choosing you</h3><p>And there is so much more ahead of us.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section finale" id="finale">
+      <div class="finale__inner reveal">
+        <p class="finale__small">ONE LAST THING</p>
+        <div class="heart-orbit" aria-hidden="true">
+          <div class="heart-orbit__ring"></div>
+          <div class="heart-orbit__heart">♥</div>
+        </div>
+        <h2 id="finalMessage">Happy Monthsary, Leomary.</h2>
+        <p>Here’s to us, to the memories we already have, and to all the ones we haven’t made yet.</p>
+        <button id="surpriseBtn" class="love-button" type="button"><span>Tap for a little surprise</span><b>♡</b></button>
+        <div id="surpriseText" class="surprise-text" aria-live="polite">
+          <span>Christian</span><strong>loves</strong><span>Leomary</span>
+          <small>more than this tiny website can say ♡</small>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made with ♡ for Leomary Basanez</p>
+      <span>January 28, 2026 — forever counting</span>
+    </footer>
+  </main>
+
+  <div class="heart-layer" id="heartLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
